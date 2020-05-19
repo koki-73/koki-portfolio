@@ -1,4 +1,205 @@
-h1 {
-  color: blue;
+* {
+  box-sizing: border-box;
+}
+
+/* ヘッダー */
+.header {
+  height: 60px;
+  /* padding: 10px 0; */
+  box-shadow: 0 0.125rem 0.25rem 0 rgba(0,0,0,.11);
+}
+.nav-bar {
+  display: flex;
+  width: 800px;
+  margin: 0 auto;
+}
+.nav-bar .name {
+  width: 300px;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 60px;
+}
+.nav-bar ul {
+  display: flex;
+  line-height: 60px;
+}
+.nav-bar ul li {
+  margin-right: 20px;
+  vertical-align: bottom;
+}
+
+section h1 {
+  color: #05054b;
+  font-size: 40px;
+}
+section p {
+  color: #6d6c6c;
+}
+
+/* プロフィール */
+section {
+  margin-bottom: 50px;
+  /* height: 100px; */
+  /* background-color: burlywood; */
+}
+.about-container {
+  display: flex;
+  margin: 0 auto;
+  padding: 30px;
+}
+.profile-image {
+  width: 300px;
+  height: 300px;
+}
+img.profile-picture {
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+  transform: rotate(90deg);
+  object-fit: cover;
+}
+.myname {
+  width: 180px;
+  text-align: center;
+  margin-top: 10px;
   font-size: 20px;
+}
+.social-contents {
+  width: 180px;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 10px;
+  /* color: #05054b; */
+}
+.social-contents a {
+  text-decoration: none;
+  color: #05054b;
+}
+
+.profile-content {
+  width: 450px;
+  /* height: 300px; */
+}
+.profile-content p {
+  margin-top: 10px;
+  font-size: 20px;
+  color: #000;
+}
+.profile-content h2 {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #000;
+}
+.profile-content li {
+  vertical-align: middle;
+  line-height: 50px;
+}
+.profile-content li i {
+  display: inline-block;
+  font-size: 25px;
+  margin-right: 10px;
+  vertical-align: middle;
+  color: #05054b;
+}
+.profile-content li span {
+  display: inline-block;
+}
+
+/* 経歴 */
+section {
+  width: 800px;
+  padding: 50px 0;
+  /* margin: 40px 0; */
+  margin: 0 auto;
+}
+.content-title {
+  width: 300px;
+  padding: 0 30px;
+}
+section#history {
+  /* height: 100px; */
+  /* background-color: lightblue; */
+  display: flex;
+}
+section#history .main-content {
+  display: flex;
+}
+.guide .space {
+  height: 30px;
+  width: 50px;
+}
+.guide .dot {
+  height: 26px;
+  width: 26px;
+  border-radius: 50%;
+  background-color: #05054b;
+  margin: 8px 0;
+}
+.guide .open-dot {
+  height: 26px;
+  width: 26px;
+  border-radius: 50%;
+  border: 1px solid #05054b;
+  margin: 8px 0;
+}
+.guide .line {
+  height: 50px;
+  width: 13px;
+  border-right: 1px solid #05054b;
+}
+.card {
+  width: 400px;
+  height: 100px;
+  margin-left: 20px;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  border-radius: 6px;
+  color: #333;
+  margin-bottom: 50px;
+}
+.card-title {
+  font-size: 20px;
+}
+.card-info, .card-info a {
+  color: gray;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+
+/* アプリ */
+section#application {
+  /* height: 100px; */
+  /* background-color: lightgreen; */
+  display: flex;
+}
+
+/* コンタクト */
+section#contact {
+  /* height: 100px; */
+  /* background-color: lightyellow; */
+  display: flex;
+}
+.contact-content {
+  font-size: 20px;
+}
+.contact-content li {
+  vertical-align: middle;
+  line-height: 50px;
+}
+.contact-content li i {
+  display: inline-block;
+  font-size: 40px;
+  margin-right: 20px;
+  vertical-align: middle;
+  color: #05054b;
+}
+.contact-content li span {
+  display: inline-block;
+}
+.contact-content li a {
+  text-decoration: none;
+  color: #000;
 }

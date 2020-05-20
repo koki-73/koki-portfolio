@@ -1,11 +1,11 @@
 * {
   box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* ヘッダー */
 .header {
   height: 60px;
-  /* padding: 10px 0; */
   box-shadow: 0 0.125rem 0.25rem 0 rgba(0,0,0,.11);
 }
 .nav-bar {
@@ -39,8 +39,6 @@ section p {
 /* プロフィール */
 section {
   margin-bottom: 50px;
-  /* height: 100px; */
-  /* background-color: burlywood; */
 }
 .about-container {
   display: flex;
@@ -55,7 +53,6 @@ img.profile-picture {
   height: 180px;
   width: 180px;
   border-radius: 50%;
-  /* transform: rotate(90deg); */
   object-fit: cover;
 }
 .myname {
@@ -69,7 +66,6 @@ img.profile-picture {
   font-size: 40px;
   text-align: center;
   margin-top: 10px;
-  /* color: #05054b; */
 }
 .social-contents a {
   text-decoration: none;
@@ -78,7 +74,6 @@ img.profile-picture {
 
 .profile-content {
   width: 450px;
-  /* height: 300px; */
 }
 .profile-content p {
   margin-top: 10px;
@@ -110,7 +105,6 @@ img.profile-picture {
 section {
   width: 800px;
   padding: 50px 0;
-  /* margin: 40px 0; */
   margin: 0 auto;
 }
 .content-title {
@@ -118,8 +112,6 @@ section {
   padding: 0 30px;
 }
 section#history {
-  /* height: 100px; */
-  /* background-color: lightblue; */
   display: flex;
 }
 section#history .main-content {
@@ -171,15 +163,11 @@ section#history .main-content {
 
 /* アプリ */
 section#application {
-  /* height: 100px; */
-  /* background-color: lightgreen; */
   display: flex;
 }
 
 /* コンタクト */
 section#contact {
-  /* height: 100px; */
-  /* background-color: lightyellow; */
   display: flex;
 }
 .contact-content {

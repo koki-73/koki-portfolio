@@ -5,6 +5,8 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./main.js"></script>
     <title>KOKI SASAKI</title>
   </head>
   <body>
@@ -12,130 +14,136 @@
       <div class="nav-bar">
         <div class="name">Sasaki Koki</div>
         <ul>
-          <li>About</li>
-          <li>History</li>
-          <li>Application</li>
-          <li>Contact</li>
+          <li><a href="#about">Biography</a></li>
+          <li><a href="#history">History</a></li>
+          <li><a href="#application">Application</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
     </div>
-    <section id="about" class="about">
-      <div class="about-container">
-        <div class="profile-image">
-          <img src="profile-image.JPG" alt="画像がありません" class="profile-picture">
-          <div class="myname">佐々木 昴生</div>
-          <div class="social-contents">
-            <a href="https://twitter.com/hlt_eng73">
-              <i class="fab fa-twitter"></i>
-            </a>
-            <a href="https://github.com/koki-73">
-              <i class="fab fa-github"></i>
-            </a>
-            <a href="https://www.facebook.com/profile.php?id=100017697823029">
-              <i class="fab fa-facebook-square"></i>
-            </a>
+    <div class="contents">
+      <section id="about" class="about">
+        <div class="about-container">
+          <div class="profile-image">
+            <img src="profile-image.JPG" alt="画像がありません" class="profile-picture">
+            <div class="myname">佐々木 昴生</div>
+            <div class="social-contents">
+              <a href="https://twitter.com/hlt_eng73">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="https://github.com/koki-73">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="https://www.facebook.com/profile.php?id=100017697823029">
+                <i class="fab fa-facebook-square"></i>
+              </a>
+            </div>
+          </div>
+          <div class="profile-content">
+            <div class="profile-introduction">
+              <h1>Biography</h1>
+              <p>
+                  2020年からプログラミングを学び始め、5月にTECH CAMPを卒業。
+                <br>
+                  大学では化学工学を専攻し、2015年から新卒で廃棄物処理施設の設計・施工事業の会社に務め、品質管理と設計に従事。
+                <br>
+                  今後のIT社会を楽しんで生きていくためにエンジニアとして活動をしています。
+              </p>
+            </div>
+            <div class="profile-education">
+              <h2>Education</h2>
+              <ul>
+                <li>
+                  <i class="fas fa-graduation-cap"></i>
+                  <div class="univ-block">
+                    <div class="univ-name">横浜国立大学大学院修了 ( May 2015 )</div>
+                    <div class="univ-major">工学府 機能発現工学専攻</div>
+                  </div>
+                </li>
+                <li>
+                  <i class="fas fa-graduation-cap"></i>
+                  <div class="univ-block">
+                    <div class="univ-name">横浜国立大学大学卒業 ( May 2013 )</div>
+                    <div class="univ-major">工学部 物質工学科</div>
+                  </div>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
-        <div class="profile-content">
-          <div class="profile-introduction">
-            <h1>Biography</h1>
-            <p>
-              　2020年からプログラミングを学び始め、5月にTECH CAMPを卒業。
-              <br>
-              　大学では化学工学を専攻し、2015年から新卒で廃棄物処理施設の設計・施工事業の会社に務め、品質管理と設計に従事。
-              <br>
-              　今後のIT社会を楽しんで生きていくためにエンジニアとして活動をしています。
-            </p>
+      </section>
+      <section id="history" class="history">
+        <div class="content-title">
+          <h1>History</h1>
+          <p>経歴</p>
+        </div>
+        <div class="main-content">
+          <div class="guide">
+            <div class="space"></div>
+            <div class="dot"> </div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="open-dot"> </div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="open-dot"> </div>
           </div>
-          <div class="profile-education">
-            <h2>Education</h2>
-            <ul>
-              <li>
-                <i class="fas fa-graduation-cap"></i>
-                <span>横浜国立大学大学院修了 ( May 2015 )</span>
-              </li>
-              <li>
-                <i class="fas fa-graduation-cap"></i>
-                <span>横浜国立大学卒業 ( May 2013 )</span>
-              </li>
-            </ul>
+          <div class="cards">
+            <div class="card">
+              <div class="card-title">フリーランス活動中</div>
+              <div class="card-info">May 2020 - present</div>
+            </div>
+            <div class="card">
+              <div class="card-title">TECH CAMP 受講</div>
+              <div class="card-info">March 2020 - May 2020</div>
+            </div>
+            <div class="card">
+              <div class="card-title">荏原環境プラント株式会社</div>
+              <div class="card-info">April 2015 - February 2020</div>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-    <section id="history" class="history">
-      <div class="content-title">
-        <h1>History</h1>
-        <p>経歴</p>
-      </div>
-      <div class="main-content">
-        <div class="guide">
-          <div class="space"></div>
-          <div class="dot"> </div>
-          <div class="line"></div>
-          <div class="line"></div>
-          <div class="open-dot"> </div>
-          <div class="line"></div>
-          <div class="line"></div>
-          <div class="open-dot"> </div>
-
+      </section>
+      <section id="application" class="application">
+        <div class="content-title">
+          <h1>Application</h1>
+          <p>製作物</p>
         </div>
         <div class="cards">
           <div class="card">
-            <div class="card-title">フリーランス活動中</div>
-            <div class="card-info">May 2020 - present</div>
+            <div class="card-title">フリマサイト（既存アプリのクローン）</div>
+            <div class="card-info">
+              <a href="http://18.180.251.252/">http://18.180.251.252/</a>
+            </div>
           </div>
           <div class="card">
-            <div class="card-title">TECH CAMP 受講</div>
-            <div class="card-info">March 2020 - May 2020</div>
-          </div>
-          <div class="card">
-            <div class="card-title">荏原環境プラント株式会社</div>
-            <div class="card-info">April 2015 - February 2020</div>
+            <div class="card-title">本のSNSサイト</div>
+            <div class="card-info">
+              <a href="https://book-notes-73.herokuapp.com/">https://book-notes-73.herokuapp.com/</a>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-    <section id="application" class="application">
-      <div class="content-title">
-        <h1>Application</h1>
-        <p>製作物</p>
-      </div>
-      <div class="cards">
-        <div class="card">
-          <div class="card-title">フリマサイト（既存アプリのクローン）</div>
-          <div class="card-info">
-            <a href="http://18.180.251.252/">http://18.180.251.252/</a>
-          </div>
+      </section>
+      <section id="contact" class="contact">
+        <div class="content-title">
+          <h1>Contact</h1>
+          <p>連絡</p>
         </div>
-        <div class="card">
-          <div class="card-title">本のSNSサイト</div>
-          <div class="card-info">
-            <a href="https://book-notes-73.herokuapp.com/">https://book-notes-73.herokuapp.com/</a>
-          </div>
+        <div class="contact-content">
+          <ul>
+            <li>
+              <i class="fas fa-envelope"></i>
+              <span>kokisasaki.73@gmail.com</span>
+            </li>
+            <li>
+              <i class="fab fa-twitter"></i>
+              <span>
+                <a href="https://twitter.com/hlt_eng73">https://twitter.com/hlt_eng73</a>
+              </span>
+            </li>
+          </ul>
         </div>
-      </div>
+      </section>
     </div>
-    </section>
-    <section id="contact" class="contact">
-      <div class="content-title">
-        <h1>Contact</h1>
-        <p>連絡</p>
-      </div>
-      <div class="contact-content">
-        <ul>
-          <li>
-            <i class="fas fa-envelope"></i>
-            <span>kokisasaki.73@gmail.com</span>
-          </li>
-          <li>
-            <i class="fab fa-twitter"></i>
-            <span>
-              <a href="https://twitter.com/hlt_eng73">https://twitter.com/hlt_eng73</a>
-            </span>
-          </li>
-        </ul>
-      </div>
-    </section>
   </body>
 </html>

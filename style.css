@@ -6,7 +6,10 @@
 /* ヘッダー */
 .header {
   height: 60px;
+  width: 100%;
   box-shadow: 0 0.125rem 0.25rem 0 rgba(0,0,0,.11);
+  position: fixed;
+  background-color: #fff;
 }
 .nav-bar {
   display: flex;
@@ -27,7 +30,14 @@
   margin-right: 20px;
   vertical-align: bottom;
 }
+.nav-bar ul li a {
+  text-decoration: none;
+  color: #333;
+}
 
+.contents {
+  padding: 60px 0;
+}
 section h1 {
   color: #05054b;
   font-size: 40px;
@@ -82,24 +92,30 @@ img.profile-picture {
 }
 .profile-content h2 {
   margin-top: 30px;
-  font-size: 20px;
+  margin-bottom: 20px;
+  font-size: 24px;
   font-weight: 700;
   color: #000;
 }
 .profile-content li {
   vertical-align: middle;
-  line-height: 50px;
+  display: flex;
+  margin-bottom: 10px;
 }
 .profile-content li i {
-  display: inline-block;
   font-size: 25px;
   margin-right: 10px;
   vertical-align: middle;
   color: #05054b;
 }
-.profile-content li span {
-  display: inline-block;
+.profile-content li .univ-name {
+  font-size: 18px;
 }
+.profile-content li .univ-major {
+  font-size: 14px;
+  color: #333;
+}
+
 
 /* 経歴 */
 section {
